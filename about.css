@@ -1,0 +1,308 @@
+* {
+    margin : 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, .logo {
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbarrrr {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    background: radial-gradient(#fff, #ffd6d6);
+    transition: background 0.5s;
+}
+
+.navvvv {
+    flex: 1;
+    text-align: right;
+}
+.about{
+    text-align: center;
+    margin: 0 auto 80px;
+    position: relative;
+    line-height: 60px;
+    color: #555;
+ 
+}
+.navvvv ul {
+    display: inline-block;
+    list-style-type: none;
+}
+
+.navvvv ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #555;
+}
+
+.navvvv a {
+    text-decoration: none;
+    color: inherit;
+}
+
+p {
+    color: #555;
+}
+
+.containerrrr {
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.row {
+    display : flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.col-2 {
+    flex-basis: 50%;
+    min-width: 300px;
+}
+
+.col-2 img {
+    max-width: 100%;
+    padding: 50px 150px;
+    height: 600px;
+    margin-left: 60px;
+}
+
+.col-2 h1 {
+    font-size: 50px;
+    line-height: 60px;
+    margin: 25px 0;
+}
+
+.btn {
+    display: inline-block;
+    color: #fff;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    background: #ff523b;
+    transition: background 0.5s;
+}
+
+.btn:hover {
+    background-color: #563434;
+}
+
+.headerrrr {
+    background: radial-gradient(#fff,#ffd6d6);
+}
+
+.headerrrr .row {
+    margin-top: 50px;
+}
+.kaka{
+    text-align: center;
+    margin: 0 auto 80px;
+    position: relative;
+    line-height: 60px;
+    color: #555;
+ 
+}
+.categories {
+    margin: 70px 0;
+}   
+
+.col-3 {
+    flex-basis: 30%;
+    min-width: 250px;
+    margin-bottom: 30px;
+}
+
+.col-3 img {
+    width: 100%;
+}
+
+.small-container {
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.col-4 {
+    flex-basis: 25%;
+    padding: 10px;
+    min-width: 200px;
+    margin-bottom: 50px;
+    transition: transform 0.5s;
+}
+
+.col-4 img {
+    width: 100%;
+}
+
+.material-symbols-outlined {
+    font-size: 0.99em !important;
+    color: #ff523b;
+}
+
+
+/* footer */
+
+.footer {
+    background: #000;
+    color: #8a8a8a;
+    font-size: 14px;
+    padding: 60px 0 20px;
+}
+
+.footer p {
+    color: #8a8a8a;
+}
+
+.footer h3 {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.footer-col-1, .footer-col-2, .footer-col-3, .footer-col-4 {
+    min-width: 250px;
+    margin-bottom: 20px;
+}
+
+.footer-col-1 {
+    flex-basis: 30%;
+}
+
+.footer-col-2 {
+    flex: 1;
+    text-align: center;
+}
+
+.footer-col-2 .logo {
+    width: 180px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+}
+
+.footer-col-3, .footer-col-4 {
+    flex-basis: 12%;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.app-logo {
+    margin-top: 20px;
+}
+
+.app-logo img {
+    width: 80px;
+    margin-left: 30px;
+}
+
+.footer hr {
+    border: none;
+    background : #b5b5b5;
+    height: 1px;
+    margin: 20px 0;
+}
+
+.copyright {
+    text-align: center;
+}
+
+.menu-icon {
+    width: 28px;
+    margin-left: 20px;
+    display: none;
+}
+
+.footer-col-4 ul li a, .footer-col-3 ul li a {
+    text-decoration: none;
+    color: #8a8a8a;
+    transition: 0.5s;
+}
+
+.footer-col-4 ul li a:hover {
+    color: lightgreen;
+}
+
+.footer-col-3 ul li a:hover {
+    color: lightgreen;
+}
+.h33{
+margin-top: 12%;
+font-size:36px;
+}
+
+.kontak-sayaa p{
+    margin-top: 2%;
+}
+
+/* media query untuk menu */
+
+@media only screen and (max-width: 800px) {
+    .navvvv ul {
+        position: absolute;
+        top: 70px;
+        left: 0;
+        background: #333;
+        width: 100%;
+        overflow: hidden;
+        transition: max-height 0.5s;
+    }
+
+    .navvvv ul li {
+        display: block;
+        margin-right: 50px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .navvvv ul li a {
+        color: #fff;
+    }
+
+    .menu-icon {
+        display: block;
+        cursor: pointer;
+    }
+}
+
+
+/* media query for less than 600 screen size  */
+
+@media only screen and (max-width: 600px) {
+    .row {
+        text-align: center;
+    }
+    .col-2, .col-3, .col-4 {
+        flex-basis: 100%;
+    }
+    .col-2 img {
+        max-width: 100%;
+        padding: 50px 40px;
+        height: 600px;
+        margin-left: 5px;
+    }
+    .footer-col-2 .logo {
+        width: 180px;
+        margin-bottom: 20px;
+        margin-left: 85px;
+    }
+}

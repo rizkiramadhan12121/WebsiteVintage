@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Kyy hodiee</title>
+    <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.c /libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="kontak.css">
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- vanilla css  -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css">
+    <!-- google fonts  -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <!-- google icons -->
+    <title>Kyy Hodiee</title>
+</head>
+<body>
+<!-- isi header -->
+<div class="header">
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">Kyyy Hodie</div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="kontak.html">Kontak</a></li>
+                    <li><a href="belanja.html">Belanja</a></li>
+                    <li><a href="testimoni.html">Testimoni</a></li>
+                    <li><a href="login.html">Login</a></li>
+                </ul>
+            </nav>
+            <img src="img/cart.png" width="30px" height="30px"> 
+            <img src="img/menu.png" class="menu-icon" onclick="menutoggle()"> 
+        </div>
+        
+                
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end isi header -->
+</div>
+<section class="contact">
+    <div class="container">
+    <h2>Contact Us</h2>
+    <div class="contact-wrapper">
+    <div class="contact-form">
+    <h3>Send us a message</h3>
+    <form>
+    <div class="form-group">
+    <input type="text" name="name" placeholder="Your Name">
+</div>
+<div class="form-group">
+<input type="email" name="email" placeholder="Your Email">
+</div>
+<div class="form-group">
+<textarea name="message" placeholder="Your Message"></textarea>
+</div>
+<button type="submit">Send Message</button>
+</form>
+</div>
+<div class="contact-info">
+<h3>Contact Information</h3>
+<p><i class="fas fa-phone"></i>+62 83849028638</p>
+<p><i class="fas fa-envelope"></i>info@example.com</p>
+<p><i class="fas fa-map-marker-alt"></i>123 Street, City, Country</p>
+</div>
+    </div>
+    </div>
+    </section>
+
+</body>
+</html>
+<!-- footer  -->
+<div class="footer" id="kontak">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Kunjungi Marketplace kami</h3>
+                <p>Tersedia di Tokopedia,Shopee,</p>
+                <div class="app-logo">
+                    <img src="img/tokopedia-38854.png" alt="Tokopedia">
+                    <img src="img/shopee-logo-40482.png" alt="Shopee">
+                </div>
+            </div>
+            <div class="footer-col-2">
+                <div class="logo">Kyyy Hodie</div>
+                <p>Tujuan kyyy hodie adalah untuk memberikan pelayanan yang bagus dan juga bisa memberikan hodie yang bagus dan aman</p>
+            </div>
+            <div class="footer-col-3">
+                <h3>Sejarah Hodie kyy</h3>
+                <ul>
+                    <li><a href="#"> Kupon</a></li>
+            </div>
+            <div class="footer-col-4">
+                <h3>Ikuti Kami</h3>
+                <ul>
+                    <li><a href="https://www.instagram.com/ikyyrmdnnnn/_" target="_blank"> Instagram</a></li>
+                    <li><a href="https://shopee.co.id/kyyyhodie" target="_blank"> Shopee</a></li>
+                    <li><a href="https://tokopedia.com/akyyyhodie" target="_blank"> Tokopedia</a> </li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">Copyright 2024 - kyyy hodie</p>
+    </div>
+</div>
+<!-- end footer  -->
+<!-- js untuk toggle menu -->
+<script>
+    var MenuItems = document.getElementById("MenuItems");
+
+    MenuItems.style.maxHeight = "0px";
+
+    function menutoggle() {
+        if(MenuItems.style.maxHeight == "0px")
+        {
+            MenuItems.style.maxHeight = "200px";
+        }else {
+            MenuItems.style.maxHeight = "0px";
+        }
+    }
+</script>
